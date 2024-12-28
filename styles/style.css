@@ -21,7 +21,7 @@ body{
 
 .black{
     background-color:#FF3D71 ;
-    height: 90px;
+    height: 95px;
     width: 70px;
     position:absolute;
     z-index:2;
@@ -90,9 +90,9 @@ input{
     color:#A2A8B4;
     font-size: 14px;
 }
-.fa-solid{
-    position: relative;
-    right: -40px;
+.fa-solid-card-bag{
+    font-size: 20px;
+    padding: 5px;
 }
 
 .btb-container{
@@ -183,6 +183,10 @@ nav a{
     background: #09B566;
 }
 
+#search{
+    width: 300px;
+}
+
 /* nav end ///////// */
 
 
@@ -270,3 +274,61 @@ nav a{
     background-color: #6B21A8;
 }
 
+
+
+/* footer  style ***** */
+
+.footer-row-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-top: 40px;
+    column-gap:20px;
+    padding-bottom:50px;
+}
+
+.footer-row-container p{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.f-img{
+    width: 180px;
+    height: 25px;
+}
+
+.footer-head{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+footer{
+    background-color:#192038;
+    padding-bottom: 50px;
+}
+
+.fa-brands{
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-right: 7px;
+}
+
+#f-head{
+    color: #FF3D17;
+    font-size:16px;
+}
+
+/* FOOTER  */
+
+.footer-text{
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+#reserved-text {
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: center;
+}
