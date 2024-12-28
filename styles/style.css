@@ -187,3 +187,86 @@ nav a{
 
 
 
+.card-title{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+     margin-top:40px;
+}
+.car img{
+    width:100%;
+    height:100%;
+  
+}
+
+.second-banner img{
+    height: 121px;
+    width: 1170px;
+    margin-top: 40px;
+}
+
+.first-card img{
+    height: 282px;
+    width: 282px;
+}
+
+.first-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:5px;
+}
+
+
+/* second card style ******* */
+
+
+
+
+.second-card img{
+    width: 381px;
+    height:161px;
+}
+.second-card{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    row-gap: 7px;
+}
+
+/* third card style ******** */
+
+
+.third-card img{
+    width: 282px;
+    height: 282px;
+}
+.third-card{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    row-gap: 7px;
+}
+
+/* fourth card ***** */
+
+.fourth-card img{
+    width: 223px;
+    height: 223px;
+}
+
+.fourth-card{
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    row-gap: 7px;
+}
+
+/* mobile banner img **** */
+
+.mobile-banner img{
+    width: 1168px;
+    height: 280px;
+    margin: 40px 0px;
+}
+
+.f-ribon{
+    background-color: #6B21A8;
+}
+
